@@ -1,27 +1,18 @@
-let title = 'А чё?';
-let screens = 'Простые, Сложные, Интерактивные';
-let screenPrice = '1324';
-let rollback = '50';
-let fullPrice = '500000';
-let adaptive = true;
-
-console.log('1]');
-console.log(title);
-console.log(typeof(title));
-console.log(fullPrice);
-console.log(typeof(fullPrice));
-console.log(adaptive);
-console.log(typeof(adaptive));
+let num = 266219;
+function opNumbers(num) {
+  if (!num)
+      return 0;
+  var result = 1;
+  while (num) {
+      result *= num % 10;
+      num = Math.floor(num / 10);
+  }
+  return result;
+}
+console.log(opNumbers(num));
+num = opNumbers(num);
 console.log(' ');
-console.log('2] ');
-console.log(screens.length);
+num **= 3;
+console.log(num);
 console.log(' ');
-console.log('3] ');
-console.log('Стоимость верстки экранов ' + screenPrice + ' гривен' + ' и ' + 'Стоимость разработки сайта ' + fullPrice + ' гривен');
-console.log(' ');
-console.log('4] ');
-console.log(screens.toLowerCase());
-console.log(screens.split());
-console.log(' ');
-console.log('5] ');
-console.log((fullPrice * (rollback/100)));
+console.log(String(num).slice(0,2));

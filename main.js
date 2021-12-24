@@ -19,3 +19,12 @@ if (fullPrice >= 30000) {
 } else {
   console.log('Что-то пошло не так');
 }
+
+console.log(typeof title);
+console.log(typeof screenPrice);
+console.log(typeof adaptive);
+
+console.log(screens.length);
+console.log(serviePercentPrice);
+
+console.log("Стоимость верстки экранов " + screenPrice + " Гривен");

@@ -28,6 +28,7 @@ const getAllServicePrices = function () {
   let sum = 0
 
   for (let i = 0; i < 2; i++) {
+    let price = 0
 
     if (i === 0) {
       service1 = prompt('Какой дополнительный тип услуги нужен?')
@@ -35,14 +36,14 @@ const getAllServicePrices = function () {
       service2 = prompt('Какой дополнительный тип услуги нужен?')
     }
 
-    sum += +prompt('Сколько это будет стоить?');
+    do {
+      price = prompt('Сколько это будет стоить?');
+    } while (!isNumber(price))
+
+    sum += +price
 
   }
   return sum
-}
-
-const showTypeOf = function(variable) {
-  console.log(variable, typeof variable);
 }
 
 const getFullPrice = function () {
@@ -68,15 +69,12 @@ const getRollbackMessage = function(price) {
     return "Что-то пошло не так"
   }
 }
+
 asking()
 allServicePrices = getAllServicePrices()
 fullPrice = getFullPrice()
 serviePercentPrice = getServicePercentPrices()
 title = getTitle()
-
-showTypeOf(title)
-showTypeOf(screenPrice)
-showTypeOf(adaptive)
 
 console.log("allServicePrices", allServicePrices);
 

@@ -9,10 +9,26 @@ const appData = {
   serviePercentPrice: 0,
   service1: '',
   service2: '',
+  start: function () {
+    appData.asking()
+    appData.allServicePrices = appData.getAllServicePrices()
+    appData.fullPrice = appData.getFullPrice()
+    appData.serviePercentPrice = appData.getServicePercentPrices()
+    appData.title = appData.getTitle()
+    
+    appData.logger()
+  },
+  isNumber: function (num) {
+    return !isNaN(parseFloat(num)) && isFinite(num)
+  },
   asking: function () {
     appData.title = prompt('Как называется ваш проект?', 'Калькулятор верстки')
     appData.screens = prompt('Какие типы экранов нужно разработать?', 'Простые, Сложные')
-    appData.screenPrice = +prompt('Сколько будет стоить данная работа?', 50000)
+    
+    do {
+      appData.screenPrice = +prompt('Сколько будет стоить данная работа?', 50000)
+    } while (!appData.isNumber(appData.screenPrice))
+    
     appData.adaptive = confirm('Нужен ли адаптив на сайте?');
   },
   getAllServicePrices: function () {
@@ -26,13 +42,18 @@ const appData = {
       } else if (i === 1) {
         appData.service2 = prompt('Какой дополнительный тип услуги нужен?', 'Счётчик')
       }
-      price = +prompt('Сколько это будет стоить?');
+      
+      do {
+        price = prompt('Сколько это будет стоить?');
+      } while (!appData.isNumber(price))
+
       sum += +price
     }
+
     return sum
   },
   getFullPrice: function () {
-    return appData.screenPrice + appData.allServicePrices
+    return +appData.screenPrice + appData.allServicePrices
   },
   getServicePercentPrices: function () {
     return appData.fullPrice - (appData.fullPrice * (appData.rollback / 100))
@@ -50,14 +71,6 @@ const appData = {
     } else {
       return "Что-то пошло не так"
     }
-  },
-  start: function () {
-    appData.asking()
-    appData.allServicePrices = appData.getAllServicePrices()
-    appData.fullPrice = appData.getFullPrice()
-    appData.serviePercentPrice = appData.getServicePercentPrices()
-    appData.title = appData.getTitle()
-    appData.logger()
   },
   logger: function () {
     console.log("allServicePrices", appData.allServicePrices);

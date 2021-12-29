@@ -4,5 +4,5 @@ let screenPrice;
 let rollback;
 let fullPrice;
 let adaptive;
-alert('Ухх, а можно не надо?');
-console.log('Ухх, а можно надо?');
+alert('Ухх, а может не надо?');
+console.log('Ухх, а может надо!?');

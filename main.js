@@ -27,4 +27,4 @@ console.log(typeof adaptive);
 console.log(screens.length);
 console.log(serviePercentPrice);
 
-console.log("Стоимость верстки экранов " + screenPrice + " Гривен");
+console.log("Стоимость верстки экранов " + screenPrice + " Рублей");

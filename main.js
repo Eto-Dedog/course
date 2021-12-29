@@ -30,3 +30,11 @@
 // 	'en':['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'],
 // };
 // console.log(arr[lang]);
+
+// 2
+
+const namePerson = 'Артем';
+
+console.log((namePerson === 'Артем') ? 'директор' :
+    (namePerson === 'Максим') ? 'преподаватель' :
+    'студент');

@@ -88,4 +88,4 @@ console.log(typeof adaptive);
 console.log(screens.length);
 console.log(serviePercentPrice);
 
-console.log("Стоимость верстки экранов " + screenPrice + " гривен и Стоимость разработки сайта " + fullPrice + " гривен.");
+console.log("Стоимость верстки экранов " + screenPrice + " Рублей и Стоимость разработки сайта " + fullPrice + " Рублей.");

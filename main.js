@@ -1,4 +1,4 @@
-let title = 'А чё?';
+let title = 'А чё? А не чё!';
 let screens = 'Простые, Сложные, Интерактивные';
 let screenPrice = '1324';
 let rollback = '50';

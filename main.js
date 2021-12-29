@@ -2,7 +2,7 @@ let num = 266219;
 function opNumbers(num) {
   if (!num)
       return 0;
-  var result = 1;
+  let result = 1;
   while (num) {
       result *= num % 10;
       num = Math.floor(num / 10);

@@ -8,21 +8,34 @@
   <title>lesson09</title>
 </head>
 <body>
-  <header>
-    <ul>
-      <li><a class="link" href="#title">Title</a></li>
-      <li><a class="link" href="#subtitle">Subtitle</a></li>
-      <li><a class="link" href="#image">Image</a></li>
-    </ul>
-  </header>
-
-  <main>
-    <h1 class="title" id="title" title="Document Object Model">DOM</h1>
-
-    <h3 id="subtitle">Document Object Model</h3>
-
-    <img id="image" src="dom.png" alt="image-dom">
-  </main>
+<main>
+  <div class="screen">
+  <h1 onclick="appData.start()">Калькулятор верстки</h1>
+  <button class="handler_btn">Рассчитать</button>
+  <button class="screen-btn">+</button>
+  <button class="handler_btn">Сброс</button>
+</div>
+<div class="screen">
+  <span class="other-items percent">5%</span>
+  <span class="other-items percent">10%</span>
+  <span class="other-items percent">15%</span>
+  <span class="other-items number">100</span>
+  <span class="other-items number">250</span>
+  <span class="other-items number">500</span>
+</div>
+<div class="screen">
+  <form action="#" class="rollback">
+    <span class="range-value"></span>
+    <input type="range">
+  </form>
+</div>
+<div class="screen">
+  <input type="text" class="total-input">
+  <input type="text" class="total-input">
+  <input type="text" class="total-input">
+</div>
+  
+</main>
 </body>
 <script src="main.js"></script>
 </html>

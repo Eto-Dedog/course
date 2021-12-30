@@ -3,60 +3,11 @@
   margin: 0;
   padding: 0;
 }
-header > ul {
+main{
   display: flex;
-  justify-content: center;
-  margin-top: 25px;
+  flex-direction: column;
 }
-header > ul > li {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-header > ul > li::marker {
-  color: transparent;
-}
-header > ul > li > a {
-  text-transform: uppercase;
-  color: black;
-  text-decoration: none;
-}
-header > ul > li > a:hover {
-  font-weight: bold;
-}
-main > h1 {
+.screen{
   display: flex;
-  justify-content: center;
-  position: relative;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-main > h1:before {
-  content: '';
-  text-decoration: overline;
-  width: 100px;
-  height: 3px;
-  position: absolute;
-  color: black;
-  background: black;
-}
-main > h1::after {
-  content: '';
-  text-decoration: underline;
-  width: 100px;
-  height: 3px;
-  position: absolute;
-  color: black;
-  background: black;
-  bottom: 0;
-}
-main > h3 {
-  display: flex;
-  justify-content: center;
-}
-main > img {
-  display: flex;
-  max-width: 480px;
-}
-.green-color{
-  color: green;
+  flex-direction: column;
 }

@@ -1,101 +1,64 @@
-const appData = {
-  title: '',
-  screens: [],
-  screenPrice: 0,
-  adaptive: true,
-  rollback: 10,
-  allServicePrices: 0,
-  fullPrice: 0,
-  serviePercentPrice: 0,
-  services: {},
-  start: function () {
-    appData.asking()
-    appData.addPrice()
-    appData.getFullPrice()
-    appData.getServicePercentPrices()
-    appData.getTitle()
-    
-    appData.logger()
-  },
-  isNumber: function (num) {
-    return !isNaN(parseFloat(num)) && isFinite(num)
-  },
-  asking: function () {
-    appData.title = prompt('Как называется ваш проект?', 'Калькулятор верстки')
-    
-    for (let i = 0; i < 2; i++) {
-      let name =  prompt('Какие типы экранов нужно разработать?')
-      let price = 0
+////////////////////////////////////////////////////////////////////////////// 00:00-29:14
+// console.log(document);
+// console.dir(document);
+// console.dir(document.childNodes);
+// console.dir(document.body);
+// const title = document.getElementById('title')
+// title.textContent = "DOM!"
+// console.dir(title.textContent);
+// console.dir(title.style);
+// console.dir(title.style.backgroundColor = "green");
+// const listItems = document.getElementsByTagName('header')
+// const listItems = document.getElementsByTagName('li')
+// const links = document.getElementsByClassName('link')
+// console.log(listItems);
 
-      do {
-        price = prompt('Сколько будет стоить данная работа?')
-      } while (!appData.isNumber(price))
+// const title1 = document.querySelector('#title')
+// const title1 = document.querySelector('h1')
+// const title1 = document.querySelector('.title')
+// const title1 = document.querySelector('[title="Document Object Model"]')
+// const title1 = document.querySelector('.link')
+// const title1 = document.querySelector('header > ul')
+// const list = document.querySelector('header > ul')
+// const links2 = document.querySelectorAll('.link')
+// const listItems2 = list.querySelectorAll('li')
 
-      appData.screens.push({id: i, name: name, price: price})
-    }
+// console.log(links2);
+// console.log(list);
+// console.log(listItems2);
+// links2.forEach(function(item) {
+//   console.log(item);
+// })
+// links.forEach(function(item) {
+//   console.log(item);
+// })
 
-    for (let i = 0; i < 2; i++) {
-      let name = prompt('Какой дополнительный тип услуги нужен?')
-      let price = 0
-      
-      do {
-        price = prompt('Сколько это будет стоить?');
-      } while (!appData.isNumber(price))
+////////////////////////////////////////////////////////////////////////////// 29:14-32:52
 
-      appData.services[name] = +price
-    }
-    
-    appData.adaptive = confirm('Нужен ли адаптив на сайте?');
-  },
-  addPrice: function () {
-    for (let screen of appData.screens) {
-      appData.screenPrice += +screen.price
-    }
+// const title = document.getElementById('title')
+// title.classList.add('green-color')
+// title.classList.remove('title')
+// title.classList.toggle('title')
+// title.classList.toggle('title')
+// title.classList.toggle('title')
+// console.log(title.classList.contains('title'))
+// console.log(title.classList.contains('title1'))
+// console.dir(title);
 
-    for(let key in appData.services) {
-      appData.allServicePrices += appData.services[key]
-    }
-  },
-  getFullPrice: function () {
-    appData.fullPrice =  +appData.screenPrice + appData.allServicePrices
-  },
-  getServicePercentPrices: function () {
-    appData.serviePercentPrice =  appData.fullPrice - (appData.fullPrice * (appData.rollback / 100))
-  },
-  getTitle: function () {
-    appData.title =  appData.title.trim()[0].toUpperCase() + appData.title.trim().substring(1).toLowerCase()
-  },
-  getRollbackMessage: function(price) {
-    if (price >= 30000) {
-      return "Даем скидку в 10%"
-    } else if (price >= 15000 && price < 30000) {
-      return "Даем скидку в 5%"
-    } else if (price >= 0 && price < 15000) {
-      return "Скидка не предусмотрена"
-    } else {
-      return "Что-то пошло не так"
-    }
-  },
-  logger: function () {
-    console.log("allServicePrices", appData.allServicePrices);
+////////////////////////////////////////////////////////////////////////////// 32:52-
 
-    console.log(appData.getRollbackMessage(appData.fullPrice));
-    console.log("title",typeof appData.title);
-    console.log("screenPrice",typeof appData.screenPrice);
-    console.log("adaptive",typeof appData.adaptive);
+const title = document.getElementById('title')
 
-    console.log("screens.length",appData.screens.length);
-    console.log("screens",appData.screens);
-    console.log("serviePercentPrice",appData.serviePercentPrice);
-
-    console.log("Стоимость верстки экранов " + appData.screenPrice + " гривен и Стоимость разработки сайта " + appData.fullPrice + " гривен.");
-    console.log(" ");
-    console.log("↓ Свойства и методы appData ↓");
-    console.log(" ");
-    for (let key in appData) {
-      console.log( "Ключ: " + key + " Значение: " + appData[key] );
-    }
-  }
-}
-
-appData.start()
+// console.log(title.getAttribute('title'));
+// title.setAttribute('title', 'new value title')
+// title.setAttribute('id', 'title2')
+// console.log(title.getAttribute('title'));
+// console.log(title.hasAttribute('title'));
+// console.log(title.hasAttribute('title2'));
+title.style.backgroundColor = 'green'
+// console.log(getComputedStyle(title));
+// console.dir(getComputedStyle(title));
+// console.dir(getComputedStyle(title).backgroundColor);
+console.dir(getComputedStyle(title).fontSize);
+// console.dir(title);
+console.log(title);

@@ -1,118 +1,52 @@
-// const appData = {
-//   title: '',
-//   screens: [],
-//   screenPrice: 0,
-//   adaptive: true,
-//   rollback: 10,
-//   allServicePrices: 0,
-//   fullPrice: 0,
-//   serviePercentPrice: 0,
-//   services: {},
-//   start: function () {
-//     appData.asking()
-//     appData.addPrice()
-//     appData.getFullPrice()
-//     appData.getServicePercentPrices()
-//     appData.getTitle()
-    
-//     appData.logger()
-//   },
-//   isNumber: function (num) {
-//     return !isNaN(parseFloat(num)) && isFinite(num)
-//   },
-//   asking: function () {
-//     appData.title = prompt('Как называется ваш проект?', 'Калькулятор верстки')
-    
-//     for (let i = 0; i < 2; i++) {
-//       let name =  prompt('Какие типы экранов нужно разработать?')
-//       let price = 0
+'use strict';
 
-//       do {
-//         price = prompt('Сколько будет стоить данная работа?')
-//       } while (!appData.isNumber(price))
+const timeDisplay = () => {
+    const week = ['Воскресенье, ', 'Понедельник, ', 'Вторник, ', 'Среда, ',
+        'Четверг, ', 'Пятница, ', 'Суббота, '];
+    const month = [' января ', ' февраля ', ' марта ',
+        ' апреля ', ' мая ', ' июня ',
+        ' июля ', ' августа ', ' сентября ',
+        ' октября ', ' ноября ', ' декабря '];
+    const date = new Date();
 
-//       appData.screens.push({id: i, name: name, price: price})
-//     }
+    const addZero = elem => {
+        if (String(elem).length === 1) { return '0' + elem; } else { return String(elem); }
+    };
+    const changeEnding = (num, timeElem = '') => {
+        // const textVariant = (() => {return timeElem === 'h' ? [' час ', ' часа ', ' часов '] :
+        //     timeElem === 'm' ? [' минута ', ' минуты ', ' минут '] :
+        //     [' секунда ', ' секунды ', ' секунд '];})();
+        const textVariant = (timeElem === 'h' ? [' час ', ' часа ', ' часов '] :
+            timeElem === 'm' ? [' минута ', ' минуты ', ' минут '] :
+            [' секунда ', ' секунды ', ' секунд ']);
+        const n = num % 10;
+        return num > 4 && num < 20 ? num + textVariant[2] : 
+            n === 1 ? num + textVariant[0] : 
+            n > 1 && n < 5 ? num + textVariant[1] :
+            num + textVariant[2];
+    };
 
-//     for (let i = 0; i < 2; i++) {
-//       let name = prompt('Какой дополнительный тип услуги нужен?')
-//       let price = 0
-      
-//       do {
-//         price = prompt('Сколько это будет стоить?');
-//       } while (!appData.isNumber(price))
+    const textTime = 'Сегодня ' + week[date.getDay()] + date.getDay() + month[date.getMonth()] + 
+    date.getFullYear() + ' года, ' + changeEnding(date.getHours(), 'h') + 
+    changeEnding(date.getMinutes(), 'm') + changeEnding(date.getSeconds());
+    const time = addZero(date.getHours()) + ':' + addZero(date.getMinutes()) + ':' + addZero(date.getSeconds()) + ' ' + 
+    addZero(date.getDay()) + '.' + addZero(date.getMonth()) + '.' + date.getFullYear();
 
-//       appData.services[name] = +price
-//     }
-    
-//     appData.adaptive = confirm('Нужен ли адаптив на сайте?');
-//   },
-//   addPrice: function () {
-//     for (let screen of appData.screens) {
-//       appData.screenPrice += +screen.price
-//     }
+    document.querySelector('.text-time').textContent = textTime;
+    document.querySelector('.time').textContent = time;
 
-//     for(let key in appData.services) {
-//       appData.allServicePrices += appData.services[key]
-//     }
-//   },
-//   getFullPrice: function () {
-//     appData.fullPrice =  +appData.screenPrice + appData.allServicePrices
-//   },
-//   getServicePercentPrices: function () {
-//     appData.serviePercentPrice =  appData.fullPrice - (appData.fullPrice * (appData.rollback / 100))
-//   },
-//   getTitle: function () {
-//     appData.title =  appData.title.trim()[0].toUpperCase() + appData.title.trim().substring(1).toLowerCase()
-//   },
-//   getRollbackMessage: function(price) {
-//     if (price >= 30000) {
-//       return "Даем скидку в 10%"
-//     } else if (price >= 15000 && price < 30000) {
-//       return "Даем скидку в 5%"
-//     } else if (price >= 0 && price < 15000) {
-//       return "Скидка не предусмотрена"
-//     } else {
-//       return "Что-то пошло не так"
-//     }
-//   },
-//   logger: function () {
-//     console.log("allServicePrices", appData.allServicePrices);
+    console.clear();
+    console.log(textTime);
+    console.log(time);
+};
 
-//     console.log(appData.getRollbackMessage(appData.fullPrice));
-//     console.log("title",typeof appData.title);
-//     console.log("screenPrice",typeof appData.screenPrice);
-//     console.log("adaptive",typeof appData.adaptive);
+let elem = document.createElement('div');
+elem.classList.add('text-time');
+document.body.appendChild(elem);
 
-//     console.log("screens.length",appData.screens.length);
-//     console.log("screens",appData.screens);
-//     console.log("serviePercentPrice",appData.serviePercentPrice);
+elem = document.createElement('div');
+elem.classList.add('time');
+document.body.appendChild(elem);
+console.dir(elem);
 
-//     console.log("Стоимость верстки экранов " + appData.screenPrice + " гривен и Стоимость разработки сайта " + appData.fullPrice + " гривен.");
-//     console.log(" ");
-//     console.log("↓ Свойства и методы appData ↓");
-//     console.log(" ");
-//     for (let key in appData) {
-//       console.log( "Ключ: " + key + " Значение: " + appData[key] );
-//     }
-//   }
-// }
-// 
-
-title = document.getElementsByTagName('h1')
-console.log(title);
-button = document.getElementsByClassName('handler_btn')
-console.log(button);
-buttonTiming = document.querySelector('.screen-btn')
-console.log(buttonTiming);
-percent = document.querySelectorAll('.other-items.percent')
-number = document.querySelectorAll('.other-items.number')
-console.log(percent,number);
-range = document.querySelector('.rollback input')
-console.log(range);
-span = document.querySelector('.rollback .range-value')
-console.log(span);
-input = document.getElementsByClassName('total-input')
-console.log(input);
-let = document.querySelectorAll('.screen')
-console.log(let);
+setInterval(timeDisplay, 1000);

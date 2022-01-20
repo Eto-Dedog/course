@@ -25,7 +25,7 @@
 # lesson-12extra ~
 # lesson-13 https://github.com/Eto-Dedog/course/tree/lesson13 | https://github.com/Eto-Dedog/lesson13-todo
 # lesson-13extra ~
-# lesson-13storage 
+# lesson-13storage https://github.com/Eto-Dedog/course/tree/lesson13storage
 # lesson-14 https://github.com/Eto-Dedog/course/tree/lesson14
 # lesson-14extra ~
 # lesson-15 https://github.com/Eto-Dedog/course/tree/lesson15 | https://github.com/Eto-Dedog/lesson15-doom 

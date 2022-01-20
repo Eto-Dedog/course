@@ -13,24 +13,24 @@
 # lesson-07 https://github.com/Eto-Dedog/course/tree/lesson07
 # lesson-07extra https://github.com/Eto-Dedog/course/tree/lesson07extra
 # lesson-08 https://github.com/Eto-Dedog/course/tree/lesson08
-# lesson-08extra ~
+# lesson-08extra ~может она сделана, а может и нет~
 # lesson-09me https://github.com/Eto-Dedog/course/tree/lesson09me
 # lesson-09primeval https://github.com/Eto-Dedog/course/tree/lesson09primeval
 # lesson-09extra https://github.com/Eto-Dedog/course/tree/lesson09extra
 # lesson-10 https://github.com/Eto-Dedog/course/tree/lesson10
-# lesson-10extra ~
+# lesson-10extra ~может она сделана, а может и нет~
 # lesson-11 https://github.com/Eto-Dedog/course/tree/lesson11 | https://github.com/Eto-Dedog/lesson11-end-of-the-training-practice
-# lesson-11extra ~
+# lesson-11extra ~может она сделана, а может и нет~
 # lesson-12 https://github.com/Eto-Dedog/course/tree/lesson12
-# lesson-12extra ~
+# lesson-12extra ~может она сделана, а может и нет~
 # lesson-13 https://github.com/Eto-Dedog/course/tree/lesson13 | https://github.com/Eto-Dedog/lesson13-todo
-# lesson-13extra ~
+# lesson-13extra ~может она сделана, а может и нет~
 # lesson-13storage https://github.com/Eto-Dedog/course/tree/lesson13storage
 # lesson-14 https://github.com/Eto-Dedog/course/tree/lesson14
-# lesson-14extra ~
+# lesson-14extra ~может она сделана, а может и нет~
 # lesson-15 https://github.com/Eto-Dedog/course/tree/lesson15 | https://github.com/Eto-Dedog/lesson15-doom 
-# lesson-15extra ~
+# lesson-15extra ~может она сделана, а может и нет~
 # lesson-16 https://github.com/Eto-Dedog/course/tree/lesson16
-# lesson-16extra ~
+# lesson-16extra ~может она сделана, а может и нет~
 # lesson-17 https://github.com/Eto-Dedog/3DGlo
 # lesson-17.1 https://github.com/Eto-Dedog/Lesson17.1

@@ -246,3 +246,16 @@ const appData = {
   },
 };
 appData.init();
+
+
+function cng() {
+let chbox;
+const hide = document.getElementById('hidebox')
+chbox=document.getElementById('cms-open');
+	if (chbox.checked) {
+		hide.style.display = "flex"
+	}
+	else {
+    hide.style.display = "none"
+	}
+}

@@ -32,5 +32,5 @@
 # lesson-15extra ~может она сделана, а может и нет~
 # lesson-16 https://github.com/Eto-Dedog/course/tree/lesson16
 # lesson-16extra ~может она сделана, а может и нет~
-# lesson-17 https://github.com/Eto-Dedog/Lesson17
+# lesson-17 https://github.com/Eto-Dedog/3DGlo
 # lesson-17.1 https://github.com/Eto-Dedog/Lesson17.1

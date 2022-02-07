@@ -34,3 +34,25 @@
 # lesson-16extra ~может она сделана, а может и нет~
 # lesson-17 https://github.com/Eto-Dedog/3DGlo
 # lesson-17.1 https://github.com/Eto-Dedog/Lesson17.1
+# lesson-17extra ~может она сделана, а может и нет~
+# lesson-18 https://github.com/Eto-Dedog/3DGlo/tree/Lesson18
+# lesson-18.1 https://github.com/Eto-Dedog/3DGlo/tree/Lesson18(6)
+# lesson-18extra ~может она сделана, а может и нет~
+# lesson-19 https://github.com/Eto-Dedog/3DGlo/tree/Lesson19-20
+# lesson-19extra ~может она сделана, а может и нет~
+# lesson-20 https://github.com/Eto-Dedog/3DGlo/tree/Lesson19-20
+# lesson-20extra ~может она сделана, а может и нет~
+# lesson-21 https://github.com/Eto-Dedog/3DGlo/tree/Lesson21
+# lesson-21extra ~может она сделана, а может и нет~
+# lesson-22 https://github.com/Eto-Dedog/3DGlo/tree/Lesson22
+# lesson-22extra ~может она сделана, а может и нет~
+# lesson-23 https://github.com/Eto-Dedog/3DGlo/tree/Lesson23
+# lesson-24extra ~может она сделана, а может и нет~
+# lesson-24 https://github.com/Eto-Dedog/3DGlo/tree/Lesson24
+# lesson-24extra ~может она сделана, а может и нет~
+# lesson-25 https://github.com/Eto-Dedog/3DGlo/tree/Lesson25
+# lesson-25extra ~может она сделана, а может и нет~
+# lesson-26 https://github.com/Eto-Dedog/3DGlo/tree/Lesson26
+# lesson-26extra ~может она сделана, а может и нет~
+# lesson-27 ~может она сделана, а может и нет~
+# lesson-27extra ~может она сделана, а может и нет~

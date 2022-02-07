@@ -42,7 +42,8 @@
 # lesson-10extra 
 ## ~может она сделана, а может её и не было~
 # lesson-11 
-## https://github.com/Eto-Dedog/course/tree/lesson11 | https://github.com/Eto-Dedog/lesson11-end-of-the-training-practice
+## https://github.com/Eto-Dedog/course/tree/lesson11
+## https://github.com/Eto-Dedog/lesson11-end-of-the-training-practice
 # lesson-11extra 
 ## ~может она сделана, а может её и не было~
 # lesson-12 
@@ -50,7 +51,8 @@
 # lesson-12extra 
 ## ~может она сделана, а может её и не было~
 # lesson-13 
-## https://github.com/Eto-Dedog/course/tree/lesson13 | https://github.com/Eto-Dedog/lesson13-todo
+## https://github.com/Eto-Dedog/course/tree/lesson13
+## https://github.com/Eto-Dedog/lesson13-todo
 # lesson-13extra 
 ## ~может она сделана, а может её и не было~
 # lesson-13storage 
@@ -60,7 +62,8 @@
 # lesson-14extra 
 ## ~может она сделана, а может её и не было~
 # lesson-15 
-## https://github.com/Eto-Dedog/course/tree/lesson15 | https://github.com/Eto-Dedog/lesson15-doom 
+## https://github.com/Eto-Dedog/course/tree/lesson15
+## https://github.com/Eto-Dedog/lesson15-doom
 # lesson-15extra 
 ## ~может она сделана, а может её и не было~
 # lesson-16 

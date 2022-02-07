@@ -57,7 +57,7 @@
 ## ~может она сделана, а может её и не было~
 # lesson-13storage 
 ## https://github.com/Eto-Dedog/course/tree/lesson13storage
-# lesson-14 [стрелочные функции]
+# lesson-14 [Калькулятор верстки end]
 ## https://github.com/Eto-Dedog/course/tree/lesson14
 # lesson-14extra 
 ## ~может она сделана, а может её и не было~

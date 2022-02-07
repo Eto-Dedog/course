@@ -1,6 +1,6 @@
 # Js-курс
 # lesson-01 
-##https://github.com/Eto-Dedog/course/tree/lesson01
+## https://github.com/Eto-Dedog/course/tree/lesson01
 # lesson-01extra 
 ## ~может она сделана, а может её и не было~
 # lesson-02 

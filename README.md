@@ -1,8 +1,11 @@
-# https://eto-dedog.github.io/lesson11-end-of-the-training-practice lesson 11
-# https://eto-dedog.github.io/lesson13-todo/ lesson 13
-# https://eto-dedog.github.io/course/ lesson 14
-# https://eto-dedog.github.io/lesson15-doom/ lesson 15
-# https://eto-dedog.github.io/3DGlo/ lesson 27
+# Links
+#
+## https://eto-dedog.github.io/lesson11-end-of-the-training-practice lesson 11
+## https://eto-dedog.github.io/lesson13-todo/ lesson 13
+## https://eto-dedog.github.io/course/ lesson 14
+## https://eto-dedog.github.io/lesson15-doom/ lesson 15
+## https://eto-dedog.github.io/3DGlo/ lesson 27
+#
 #
 # Js-курс
 # lesson-01 [Lesson1]

@@ -87,7 +87,7 @@
 # lesson-19 [Меню и Модальное окно]
 ## https://github.com/Eto-Dedog/3DGlo/tree/Lesson19-20
 # lesson-19extra 
-## ~может она сделана, а может её и не было~
+## https://github.com/Eto-Dedog/3DGlo/tree/Lesson19-20
 # lesson-20 [Меню и Модальное окно]
 ## https://github.com/Eto-Dedog/3DGlo/tree/Lesson19-20
 # lesson-20extra 

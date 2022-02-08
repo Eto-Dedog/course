@@ -71,7 +71,7 @@
 ## https://github.com/Eto-Dedog/course/tree/lesson16
 # lesson-16extra 
 ## ~может она сделана, а может её и не было~
-
+#
 # lesson-17 [Клиентская часть веб-приложения]
 ## https://github.com/Eto-Dedog/3DGlo
 # lesson-17.1 

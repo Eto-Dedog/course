@@ -2,7 +2,7 @@
 # lesson-01 [Lesson1]
 ## https://github.com/Eto-Dedog/course/tree/lesson01
 # lesson-01extra 
-## ~может она сделана, а может её и не было~
+## ~задания нету~
 # lesson-02 [Lesson2]
 ## https://github.com/Eto-Dedog/course/tree/lesson02
 # lesson-02extra 

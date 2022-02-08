@@ -6,7 +6,6 @@
 ## https://eto-dedog.github.io/lesson15-doom/ lesson 15
 ## https://eto-dedog.github.io/3DGlo/ lesson 27
 #
-#
 # Js-курс
 # lesson-01 [Lesson1]
 ## https://github.com/Eto-Dedog/course/tree/lesson01

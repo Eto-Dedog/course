@@ -30,7 +30,7 @@
 # lesson-08 [Подготовка проекта к подключению верстки]
 ## https://github.com/Eto-Dedog/course/tree/lesson08
 # lesson-08extra 
-## ~может она сделана, а может её и не было~
+## https://github.com/Eto-Dedog/course/tree/lesson08
 # lesson-09 [dom]
 ## https://github.com/Eto-Dedog/course/tree/lesson09primeval
 # lesson-09me 

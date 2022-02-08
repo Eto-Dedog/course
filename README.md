@@ -77,7 +77,7 @@
 # lesson-17.1 
 ## https://github.com/Eto-Dedog/Lesson17.1
 # lesson-17extra 
-## ~может она сделана, а может её и не было~
+## ~нет задания~
 # lesson-18 [Таймер]
 ## https://github.com/Eto-Dedog/3DGlo/tree/Lesson18
 # lesson-18.1 

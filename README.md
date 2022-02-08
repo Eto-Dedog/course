@@ -61,7 +61,7 @@
 # lesson-14 [Калькулятор верстки end]
 ## https://github.com/Eto-Dedog/course/tree/lesson14
 # lesson-14extra 
-## ~может она сделана, а может её и не было~
+## https://github.com/Eto-Dedog/course/tree/lesson14
 # lesson-15 [dom]
 ## https://github.com/Eto-Dedog/course/tree/lesson15
 ## https://github.com/Eto-Dedog/lesson15-doom

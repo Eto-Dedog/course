@@ -50,12 +50,12 @@
 # lesson-12 [Обработка событий]
 ## https://github.com/Eto-Dedog/course/tree/lesson12
 # lesson-12extra 
-## ~может она сделана, а может её и не было~
+## https://github.com/Eto-Dedog/course/tree/lesson12
 # lesson-13 [TodoList]
 ## https://github.com/Eto-Dedog/course/tree/lesson13
 ## https://github.com/Eto-Dedog/lesson13-todo
 # lesson-13extra 
-## ~может она сделана, а может её и не было~
+## ~задание нету~
 # lesson-13storage 
 ## https://github.com/Eto-Dedog/course/tree/lesson13storage
 # lesson-14 [Калькулятор верстки end]

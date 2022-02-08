@@ -45,7 +45,8 @@
 ## https://github.com/Eto-Dedog/course/tree/lesson11
 ## https://github.com/Eto-Dedog/lesson11-end-of-the-training-practice
 # lesson-11extra 
-## ~может она сделана, а может её и не было~
+## https://github.com/Eto-Dedog/course/tree/lesson11
+## https://github.com/Eto-Dedog/lesson11-end-of-the-training-practice
 # lesson-12 [Обработка событий]
 ## https://github.com/Eto-Dedog/course/tree/lesson12
 # lesson-12extra 

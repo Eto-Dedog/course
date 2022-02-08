@@ -91,7 +91,7 @@
 # lesson-20 [Меню и Модальное окно]
 ## https://github.com/Eto-Dedog/3DGlo/tree/Lesson19-20
 # lesson-20extra 
-## ~может она сделана, а может её и не было~
+## https://github.com/Eto-Dedog/3DGlo/tree/Lesson19-20
 # lesson-21 [Регулярные выражения]
 ## https://github.com/Eto-Dedog/3DGlo/tree/Lesson21
 # lesson-21extra 
@@ -107,7 +107,7 @@
 # lesson-24 [Калькулятор]
 ## https://github.com/Eto-Dedog/3DGlo/tree/Lesson24
 # lesson-24extra 
-## ~может она сделана, а может её и не было~
+## https://github.com/Eto-Dedog/3DGlo/tree/Lesson24
 # lesson-25 [Паттерн анимации]
 ## https://github.com/Eto-Dedog/3DGlo/tree/Lesson25
 # lesson-25extra 

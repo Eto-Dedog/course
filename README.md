@@ -41,8 +41,6 @@
 ## https://github.com/Eto-Dedog/course/tree/lesson08
 # lesson-09 [dom]
 ## https://github.com/Eto-Dedog/course/tree/lesson09
-# lesson-09me 
-## https://github.com/Eto-Dedog/course/tree/lesson09me
 # lesson-09extra 
 ## https://github.com/Eto-Dedog/course/tree/lesson09extra
 # lesson-10 [dom]

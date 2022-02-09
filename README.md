@@ -61,9 +61,7 @@
 ## https://github.com/Eto-Dedog/course/tree/lesson13
 ## https://github.com/Eto-Dedog/lesson13-todo
 # lesson-13extra 
-## ~задание нету~
-# lesson-13storage 
-## https://github.com/Eto-Dedog/course/tree/lesson13storage
+## https://github.com/Eto-Dedog/course/tree/lesson13extra
 # lesson-14 [Калькулятор верстки end]
 ## https://github.com/Eto-Dedog/course/tree/lesson14
 # lesson-14extra 
